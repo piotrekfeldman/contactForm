@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout.html}">
+<head>
+    <title>Przesylki.pl - mail poprawnie wysłany</title>
+    <script>
+        function click() {
+            document.getElementById("link").click();
+        }
+
+        setTimeout("click()", 3000);
+    </script>
+</head>
+<body>
+<section layout:fragment="content">
+    <h1 class="success">
+        <p style="font-size: medium">Mail został wysłany! Wkrótce odpowiemy</p>
+    </h1>
+    <a id="link" href="/">Wróć na stronę główną</a>
+</section>
+</body>
+</html>

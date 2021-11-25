@@ -1,0 +1,16 @@
+spring:
+  mail:
+    host: smtp.poczta.onet.pl
+    username: piotrtestjavastart@op.pl
+    password: System11
+    port: 465
+    properties:
+      mail.smtp.ssl.enable: true
+      smtp:
+        auth: true
+
+logging:
+  level:
+    com.example.demo: DEBUG
+server:
+  port: 8081

@@ -1,0 +1,32 @@
+#message {
+    display: none;
+    color: #000;
+    position: relative;
+    margin-top: 5px;
+}
+
+.invalid {
+    color: red;
+    margin-bottom: -5px;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+}
+
+.btn.btn-primary {
+    margin-bottom: 10px;
+}
+
+.footer{
+    background: darkblue;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    color: white
+}
+
+#link {
+    display: none;
+}
