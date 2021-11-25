@@ -24,15 +24,18 @@ public class ContactController {
             redirectAttributes.addFlashAttribute("mailSent", formItem);
             return "redirect:success";
         } else {
-            return "redirect:failure.html";
+            return "redirect:failure";
         }
     }
 
     @GetMapping("/success")
-    public String successPage(Model model) {
-
-        Object mailConfirmation = model.getAttribute("mailSent");
-        model.addAttribute("mail", mailConfirmation);
+    public String successPage() {
         return "success";
+    }
+
+
+    @GetMapping("/failure")
+    public String failurePage() {
+        return "failure";
     }
 }

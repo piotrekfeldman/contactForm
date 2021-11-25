@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "server.spring.resources.add-mappings=true",
+      "type": "java.lang.String",
+      "description": "Description for server.spring.resources.add-mappings=true."
+    }
+  ] }
