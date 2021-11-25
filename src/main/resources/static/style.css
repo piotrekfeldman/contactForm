@@ -15,13 +15,6 @@
     left: -35px;
 }
 
-body {
-    display: block;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: auto;
-}
-
 .btn.btn-primary {
     margin-bottom: 10px;
 }
